@@ -1,0 +1,111 @@
+.login-page{
+    background:  white !important;
+}
+.login{
+    width: 450px;
+    height: auto;
+    padding-bottom: 20px;
+    margin: 100px auto;
+    align-self: center;
+    box-shadow: 2px 2px 5px rgba(180, 175, 175, 0.5);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background:  white !important;
+
+}
+.logi-text{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: #007bff;
+    font-size: 20px;
+    font-weight: 500;
+    background: white;
+    border-radius: inherit;
+}
+.input-group input{
+    width: 80%;
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid #918e8e;
+    margin: 0 auto;
+    padding: 0 10px;
+    background:#e9e7e7;
+
+};
+.input-fields{
+    height: 300px !important;
+
+}
+.form-input-error{
+    color: rgb(245, 96, 96);
+}
+.input-group{
+    margin:5px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center !important;
+    font-weight: bold;
+    width: 90% !important;
+    padding: 0px 0 10px;
+    border-radius: 5px;
+
+
+}
+.form-submit{
+    margin: 0 auto;
+    align-self: center;
+    display: flex;
+    text-align: center;
+    width: max-content;
+}
+.form-submit button{
+    width: 150px;
+    padding: 10px 25px;
+    color: white;
+    background:#007bff;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+.form-submit button:hover{
+    box-shadow: 1px 2px 5px #045ebe;;
+    background: #045ebe;
+}
+.user-category{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    margin-top: 10px;
+}
+.cat-btn{
+    padding: 3px 10px;
+    border-radius: 40px;
+    cursor: pointer;
+    border: 1px solid #064a92;
+    font-size: 12px;
+    transition: .3s ease-in-out;
+    margin:0 10px;
+}
+.selected, .users button:hover{
+    background: #007bff;
+    padding: 5px 10px;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+@media all and (max-width:507px){
+    .login{
+        width: 90%;
+    }
+}
+@media all and (max-width:397px){
+    .login{
+        width: 100%;
+    }
+}

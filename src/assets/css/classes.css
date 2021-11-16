@@ -1,0 +1,43 @@
+.form-input{
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 5px 10px;
+}
+.class-main{
+    width: 100vw !important;
+    text-align: center !important;
+    align-content: center !important;
+
+}
+.classes{
+    width: 90% !important;
+    height: auto !important;
+    padding-bottom: 20px !important;
+    text-align: left !important;
+    padding-left: 10px !important ;
+}
+.classes span{
+    margin-left: 10px !important;
+}
+table{
+  width: auto !important;
+}
+.attendances{
+    width: 100vw !important;
+    padding: 20px;
+}
+.class-select{
+    width: 100% !important;
+    height: auto !important;
+    padding-bottom: 20px !important;
+box-shadow: 1px 1px 3px grey !important;
+background: white !important;
+}
+.form-input button{
+    width: max-content !important;
+    border-radius: 20px !important;
+    margin-top: 5px !important;
+}
+.attendance{
+    
+}

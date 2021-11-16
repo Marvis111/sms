@@ -1,0 +1,52 @@
+import React, { useEffect } from 'react'
+import '../../assets/css/dashboard.css';
+import AuthNav from '../HomePage/AuthNav'
+import {connect} from 'react-redux'
+const Teachers = (props) =>{
+    useEffect(()=>{
+     
+    },[props.toggleSideBar])
+    return(
+        <React.Fragment>
+            <AuthNav />
+            <div className='mainBody' style={props.toggleSideBar?
+            {width:"100vw !important",height:'auto !important',paddingBottom:'40px !important',left:'0',right:"0",
+            justifyContent:"center !important",
+            alignItems:"center !important",textAlign:"center"}
+            :{width:"calc(100vw - 250px) !important",left:"200px",right:'0',height:'auto !important',paddingBottom:'40px !important'}}>
+              <div className='main' style={{width:'100%',background:'red !important'}}>
+            
+              </div>
+
+
+
+
+
+            </div>            
+        </React.Fragment>
+    )
+}
+const mapStateToProps = ({
+    toggleSideBar,
+  }) =>({
+    toggleSideBar
+    //    left: 200px !important;
+  })
+
+export default connect(mapStateToProps,{})(Teachers);
+
+
+  <div className='form-inputs'>
+                        <select class="form-control" id="sel2" name='AssignedClass'>
+                             <option value={null}>Select Class To Assign this Teacher to</option>
+                        </select>
+                       </div>
+                       <div className='form-inputs'>
+                        <select class="form-control" id="sel3" name='Role'  value={newTeacher.Role} onChange={e=>{
+                               onChangeTeacherInput(e);
+                           }}>
+                             <option value={null}>Select Teacher's role :</option>
+                             <option value={'class Teacher'}>Class Teacher</option>
+                             <option value={'Ass class Teacher'}>Ass. Class Teacher</option>
+                        </select>
+                       </div>

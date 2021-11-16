@@ -1,0 +1,104 @@
+.teacher-main{
+    width:100% !important;
+    height: auto;
+    padding-bottom: 10px ;
+    transition: .2s ease-in-out;
+    align-self: center !important;
+}
+
+.navtabs .nav{
+    display: inline-flex !important;
+    justify-content: flex-start !important;
+    
+}
+.navPane{
+    margin: 10px !important;
+    width: 700px ;
+    align-content: center !important;
+    text-align: center !important;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+label{
+    margin-right: 5px;
+}
+#startDate::before{
+    position: relative !important;
+    content: "Start Date";
+    display: flex !important;
+    width: max-content !important;
+    padding: 0% !important;
+    
+
+}
+.tabcontent{
+    padding: 0 !important;
+    margin  : 0 !important;
+}
+.new-teacher-form{
+    width: 100% !important;
+    box-shadow: 1px 1px 3px grey;
+    text-align: center !important;
+    justify-content: center !important;
+}
+.form-inputs{
+    display: inline-flex !important;
+    align-self: center !important;
+    margin: 5px 10px;
+    padding: 5px  !important;
+    width: 45% !important;
+}
+#address{
+    border-radius: 5px !important;
+    height: 100px;
+    resize: none !important;
+
+}
+.form-inputs button{
+    width: 80% !important;
+    border-radius: 20px !important;
+}
+.form-inputs button:hover{
+    box-shadow: 1px 1px 5px var(--blue--);
+}
+.form-control{
+    margin: 0 !important;
+    padding: 0 10px !important;
+    width: 100% !important;
+    border-radius: 20px !important;
+    background: rgb(235, 233, 233) !important;
+    color: black ;
+    display: block !important;
+
+}
+.form-inputs label{
+    width: max-content !important;
+
+}
+.custom-dropDown{
+    position: absolute !important;
+    z-index: 99999999999 !important;
+    background: white ;
+    color: black !important;
+    box-shadow: 1px 1px 4px grey;
+    
+}
+@media all and (max-width:768px){
+    .navPane{
+        width: 100% !important;
+    }
+    .teacher-main{
+        width: inherit !important;
+    }
+}
+@media all and (max-width:567px){
+    .form-inputs{
+        width:80% !important ;
+    }
+}
+@media all and (max-width:489px){
+    .form-inputs{
+        width: 90% !important;
+    }
+}

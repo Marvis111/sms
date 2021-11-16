@@ -1,0 +1,40 @@
+/* Sass Decoration to assign color values*/
+:root {
+    --black--: black;
+    --yellow--: #FFAD01;
+    --ash--: #f2f2f2;
+    --brown--:#887392;
+    --white--: #FFFFFF;
+    --blue--: #007bff;
+    --deepblue--: rgb(25, 50, 77);
+}
+
+/* Margin and Padding removal*/
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+    overflow: hidden;
+}
+html{
+    background: white !important;
+    -webkit-tap-highlight-color: transparent;
+}
+* {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    padding: 0;
+    margin: 0 !important;
+}
+
+li {
+    list-style: none;
+}

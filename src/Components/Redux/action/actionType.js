@@ -1,0 +1,7 @@
+export const LOGIN = 'LOGIN'
+export const DISTRIBUTE_ERROR = 'DISTRIBUTE_ERROR'
+export const TOGGLESIDEBAR = 'TOGGLESIDEBAR'
+export const EVENTFORM = 'EVENTFORM'
+export const NEWTEACHER = 'NEWTEACHER'
+export const NEWCLASS = 'NEWCLASS'
+export const NEWSTUDENT = 'NEWSTUDENT'

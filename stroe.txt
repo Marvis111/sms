@@ -1,0 +1,218 @@
+<div className='header'>
+                <div className='left_'>
+            <div className='site-name'>
+                <Link to = '/dashboard'><span>pstudy</span></Link>
+            </div>
+            <div className='toggleNav'>
+                <List />
+            </div>
+                </div>
+                <div className='right_'>
+                    
+                </div>
+
+            </div>
+  <Navbar dark expand 
+            className='navbar navbar-expand-sm bg-black ' color = 'light'>
+                <div className='container text-primary' color='primary'>
+                    <NavbarBrand className='navBand'>
+                <Link to='/dashboard' >
+                   <span className='text-primary'> pstudy</span>
+                </Link>
+                    </NavbarBrand>
+                   
+                </div>
+            </Navbar>
+            <div className='side-bar'>
+                <div ></div>
+            </div>]
+
+
+
+            <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+        
+
+        <div class="modal-body">
+          Modal body..
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div className='intro'>
+                <h2></h2>
+                <h4></h4>
+            </div>
+            <div className='welcome-img'>
+                <img src={WelcomeImg} alt='Welcome Image' />
+            </div>
+         </div>
+         <div className='intro-animation' id='intro-animation' style={{right:this.state.right,transition:' ease-in-out'}}>
+                 <span>All our aspiration is to succeed!</span>
+             </div>
+
+
+
+             .main-container{
+    width: 100% !important;
+    height: calc(100vh - 60px);
+    display: flex;
+    position: relative;
+}
+.main-container div{
+    width: 50%;
+    height: inherit;
+}
+.intro{
+  display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 100px;
+
+}
+.intro h2{
+    font-weight: bolder;
+    font-size: 45px;
+    margin-left: 20px;
+    width: 10cm;
+    color: var(--blue--);
+}
+.intro h4{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px 10% 0 0;
+    word-wrap: break-word;
+}
+.welcome-img{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+.welcome-img img{
+    align-self: center ;
+    width: auto;
+    max-width: 80%;
+    height: auto;
+    max-height: 100%;
+    min-width: 400px;
+
+}
+.intro-animation{
+    position: absolute;
+    background: cornflowerblue;
+    float: right;
+    width: max-content;
+    padding: 4px 10px;
+    top: 65px;
+    color: white;
+    font-weight: 400;
+    z-index: 1000;
+}
+
+@media all and (max-width:811px){
+    .intro h2{
+        font-size: 35px;
+        margin-left: 12px
+        ;
+    }
+    .intro h4{
+        font-size: 15px;
+        margin-left: 12px;
+    }
+    .welcome-img img{
+        max-width: 60%;
+    }
+}
+
+@media all and (max-width:740px){
+    body{
+         overflow-y: visible !important;
+        position: absolute;
+        overflow-x: hidden;
+    }
+    .main-container{
+        flex-direction:column-reverse;
+        
+
+    }
+    .main-container div{
+        width: 100%;
+    }
+    .welcome-img{
+        height: 500px !important;
+        max-height: inherit !important;
+        display: block !important;
+        align-content:center;
+        margin-top: 20px !important;
+        
+    }
+    .welcome-img img{
+        max-height: 500px;
+        align-self: center !important;
+
+    }
+    .intro{
+        display: flex;
+        text-align: center !important;
+        margin: 0 !important;
+        padding:0;
+        width: 100% !important;
+        padding-top: 30px;
+        justify-content: center !important;
+        align-content: center !important;
+
+    }
+    .intro h2{
+        margin:0 !important;
+    }
+    
+}
+
+@media all and (max-width:396px){
+    .nav{
+        width: 100vw !important;
+        margin: 0;
+        display: flex;
+    }
+}
+
+
+<div className='main' style={{width:'100%',}}>
+              
+              </div>
+
+
+               <label htmlFor="email">Full Names</label>
+                        <input type="text" className="form-control" id="fullnames" name='FullNames' required />
+                        <label htmlFor="pwd">Email</label>
+                        <input type="email" className="form-control" id="email" name = 'email' required />
+                        <div class="form-group">
+                            <label for="sel1">Select Gender:</label>
+                            <select class="form-control" id="sel1">
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sel1">Select Highest Qualification:</label>
+                            <select class="form-control" id="sel1">
+                                <option>Bsc</option>
+                                <option>MSC</option>
+                            </select>
+                        </div>
